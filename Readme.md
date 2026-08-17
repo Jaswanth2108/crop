@@ -1,6 +1,6 @@
 # Dr. Crop - Web-based ML and DL Application
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Try%20Dr.%20Crop-2ea44f?style=for-the-badge&logo=render&logoColor=white)](https://dr-crop.onrender.com)
+[![Vercel](https://img.shields.io/badge/Deploy_with-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dr-crop.vercel.app)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Framework-Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
 
@@ -8,26 +8,27 @@ Dr. Crop is a web-based Machine Learning and Deep Learning application designed 
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Demo (Vercel)
 
-Experience Dr. Crop live in your browser:
+Experience Dr. Crop live on Vercel:
 
-🌐 **[Launch Dr. Crop Live App](https://dr-crop.onrender.com)**
+🌐 **[Launch Dr. Crop Vercel App](https://dr-crop.vercel.app)**
 
-> *Note: If hosted on a free cloud platform (e.g., Render / Hugging Face Spaces / Railway), the initial spin-up may take 15–30 seconds.*
+> *Deployed on Vercel Serverless Platform for fast response times and high availability.*
 
 ---
 
 ## Table of Contents
 
-- [Live Demo](#-live-demo)
+- [Live Demo](#-live-demo-vercel)
 - [Datasets](#datasets)
 - [Modules](#modules)
   - [1. Crop Recommendation](#1-crop-recommendation)
   - [2. Fertilizer Recommendation](#2-fertilizer-recommendation)
   - [3. Image Disease Prediction](#3-image-disease-prediction)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Deploying to Vercel](#deploying-to-vercel)
+- [Getting Started (Local)](#getting-started-local)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -60,7 +61,23 @@ The Image Disease Prediction module employs deep learning techniques to diagnose
 - Personalized advice based on location-specific data.
 - Historical data tracking and reporting for improved decision-making.
 
-## Getting Started
+## Deploying to Vercel
+
+To deploy this project to your own Vercel account:
+
+1. Push your repository to GitHub: `https://github.com/Jaswanth2108/crop`
+2. Log into [Vercel](https://vercel.com).
+3. Click **"Add New Project"** and import your `Jaswanth2108/crop` repository.
+4. Vercel will automatically detect `vercel.json` and deploy your Flask app!
+
+Alternatively, deploy via Vercel CLI:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+## Getting Started (Local)
 
 To run Dr. Crop on your local machine, follow these steps:
 
