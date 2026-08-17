@@ -1,6 +1,5 @@
 # Dr. Crop - Web-based ML and DL Application
 
-[![Vercel](https://img.shields.io/badge/Deploy_with-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dr-crop.vercel.app)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Framework-Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
 
@@ -8,27 +7,15 @@ Dr. Crop is a web-based Machine Learning and Deep Learning application designed 
 
 ---
 
-## 🚀 Live Demo (Vercel)
-
-Experience Dr. Crop live on Vercel:
-
-🌐 **[Launch Dr. Crop Vercel App](https://dr-crop.vercel.app)**
-
-> *Deployed on Vercel Serverless Platform for fast response times and high availability.*
-
----
-
 ## Table of Contents
 
-- [Live Demo](#-live-demo-vercel)
 - [Datasets](#datasets)
 - [Modules](#modules)
   - [1. Crop Recommendation](#1-crop-recommendation)
   - [2. Fertilizer Recommendation](#2-fertilizer-recommendation)
   - [3. Image Disease Prediction](#3-image-disease-prediction)
 - [Features](#features)
-- [Deploying to Vercel](#deploying-to-vercel)
-- [Getting Started (Local)](#getting-started-local)
+- [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -61,23 +48,7 @@ The Image Disease Prediction module employs deep learning techniques to diagnose
 - Personalized advice based on location-specific data.
 - Historical data tracking and reporting for improved decision-making.
 
-## Deploying to Vercel
-
-To deploy this project to your own Vercel account:
-
-1. Push your repository to GitHub: `https://github.com/Jaswanth2108/crop`
-2. Log into [Vercel](https://vercel.com).
-3. Click **"Add New Project"** and import your `Jaswanth2108/crop` repository.
-4. Vercel will automatically detect `vercel.json` and deploy your Flask app!
-
-Alternatively, deploy via Vercel CLI:
-
-```bash
-npm install -g vercel
-vercel
-```
-
-## Getting Started (Local)
+## Getting Started
 
 To run Dr. Crop on your local machine, follow these steps:
 
